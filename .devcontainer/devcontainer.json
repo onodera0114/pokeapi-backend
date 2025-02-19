@@ -9,6 +9,7 @@
         "python.linting.enabled": true,
         "python.linting.lintOnSave": true,
         // Pylance
+        
         "python.languageServer": "Pylance",
         "python.analysis.completeFunctionParens": true,
         // Linter(flake8)

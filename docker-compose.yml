@@ -8,7 +8,7 @@ services:
       - ./scripts:/workspace/scripts:cached
       - ./.vscode:/workspace/.vscode:cached
     build:
-      context: ./docker
+      context: /workspace
       dockerfile: Dockerfile
     working_dir: /workspace/scripts
     command: bash -c "./run.sh"
